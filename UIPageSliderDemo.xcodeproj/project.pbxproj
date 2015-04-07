@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A323CAB1AD3B8EB00D86766 /* UIPageSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A323CAA1AD3B8EB00D86766 /* UIPageSlider.png */; };
 		9AD9F6381AD38DAD00603FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9F6371AD38DAD00603FFE /* main.m */; };
 		9AD9F63B1AD38DAD00603FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9F63A1AD38DAD00603FFE /* AppDelegate.m */; };
 		9AD9F63E1AD38DAD00603FFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9F63D1AD38DAD00603FFE /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A323CAA1AD3B8EB00D86766 /* UIPageSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIPageSlider.png; sourceTree = "<group>"; };
 		9AD9F6321AD38DAD00603FFE /* UIPageSliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPageSliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD9F6361AD38DAD00603FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD9F6371AD38DAD00603FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		9AD9F6291AD38DAD00603FFE = {
 			isa = PBXGroup;
 			children = (
+				9A323CAA1AD3B8EB00D86766 /* UIPageSlider.png */,
 				9AD9F6341AD38DAD00603FFE /* UIPageSliderDemo */,
 				9AD9F64E1AD38DAD00603FFE /* UIPageSliderDemoTests */,
 				9AD9F6331AD38DAD00603FFE /* Products */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD9F6411AD38DAD00603FFE /* Main.storyboard in Resources */,
+				9A323CAB1AD3B8EB00D86766 /* UIPageSlider.png in Resources */,
 				9AD9F6461AD38DAD00603FFE /* LaunchScreen.xib in Resources */,
 				9AD9F6431AD38DAD00603FFE /* Images.xcassets in Resources */,
 			);
@@ -430,6 +434,7 @@
 				9AD9F6571AD38DAD00603FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD9F6581AD38DAD00603FFE /* Build configuration list for PBXNativeTarget "UIPageSliderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				9AD9F65A1AD38DAD00603FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
